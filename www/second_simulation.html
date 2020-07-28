@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+    <title>Salads - Second Simulation</title>
+
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+
+<nav class="nav-bar" role="navigation">
+    <div class="nav-wrapper container">
+        <a data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons"
+                                                                        style="color: black">menu</i></a>
+        <div style="display: flex ; float: right ; padding-top: 18px">
+            <span class="material-icons" style="color: black">share</span>
+            <span class="material-icons" style="color: black">favorite</span>
+            <span class="material-icons" style="color: black">search</span>
+        </div>
+        <p style="color: black ; font-weight: bold">հոգու կերակուր</p>
+    </div>
+</nav>
+
+<div class="section no-pad-bot" id="index-banner">
+    <div class="container" style="display: flex ">
+        <br><br>
+        <div class="row center categories" >
+            <img src="./img/pasta.png" style="width: 44px ; height:26px ; border-radius: 50px"/>
+        </div>
+        <div class="row center categories" >
+            <img src="./img/plate.png" style="width: 44px ; height:26px ; border-radius: 50px"/>
+        </div>
+        <div class="row center categories">
+            <img src="./img/fish.png" style="width: 44px ; height:26px ; border-radius: 50px "/>
+        </div>
+    </div>
+    <hr style="width: 95% ; background-color: black">
+    <img src="./img/salad.png" style="width: 44px ; height:26px ; border-radius: 50px ; margin-left: 10px"/>
+</div>
+
+<div style="padding-bottom: 20px">
+    <div id="firstSlider" style="background-color: #E3DC08">
+        <div style="">
+            <figure>
+                <img src="./img/caprese_salad.jpeg" style="width: 153px ; height:102px ; border-radius: 50px"/>
+                <figcaption class="hide">Նարնջի աղցան</figcaption>
+            </figure>
+        </div>
+        <div style="float: right;">
+            <figure>
+                <img src="./img/everyday_salad.jpg" style="width: 153px ; height:102px ; border-radius: 50px "/>
+                <figcaption class="hide">Թունա աղցան</figcaption>
+            </figure>
+        </div>
+        <div>
+            <figure>
+                <img src="./img/caesar-salad.jpg" style="width: 153px ; height:102px ; border-radius: 50px"/>
+                <figcaption class="hide">Իտալական աղցան</figcaption>
+            </figure>
+        </div>
+
+    </div>
+
+
+    <div class="hide" id="secondSlider" style="background-color: #E3DC08">
+        <div>
+            <figure>
+                <img src="./img/orange-salad.jpg" style="width: 153px ; height:102px ; border-radius: 50px"/>
+                <figcaption class="hide">պանիր աղցան</figcaption>
+            </figure>
+        </div>
+        <div style="float: right;">
+            <figure>
+                <img src="./img/tuna-salad.jpg" style="width: 153px ; height:102px ; border-radius: 50px "/>
+                <figcaption class="hide">Ամենօրյա աղցան</figcaption>
+            </figure>
+        </div>
+        <div>
+            <figure>
+                <img src="./img/italian-salad.jpg" style="width: 153px ; height:102px ; border-radius: 50px"/>
+                <figcaption class="hide">Սեզար աղցան</figcaption>
+            </figure>
+        </div>
+    </div>
+    <div class="dots"></div>
+</div>
+<hr style="width: 95% ; background-color: black">
+<!-- Modal Structure -->
+<div id="modal1" class="modal">
+    <div class="modal-content">
+        <h4></h4>
+    </div>
+    <div class="modal-footer">
+        <a class="modal-close waves-effect waves-green btn-flat">OK</a>
+    </div>
+</div>
+
+<footer class="modal-footer footer-copyright page-footer">
+    <div class="container">
+        <div class="row" style="position: relative ;justify-content: center; display: flex; align-items: center">
+            <img src="./img/shopping-cart.png" style="width: 44px ; height:26px ; border-radius: 50px "/>
+        </div>
+    </div>
+</footer>
+
+
+<!--  Scripts-->
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="./js/materialize.js"></script>
+<script src="./js/init.js"></script>
+<script src="./js/controller.js"></script>
+
+</body>
+</html>

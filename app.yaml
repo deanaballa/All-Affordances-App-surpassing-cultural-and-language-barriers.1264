@@ -1,0 +1,15 @@
+runtime: nodejs10
+service: default
+
+handlers:
+  - url: /
+    static_files: www/index.html
+    upload: www/index.html
+
+  - url: /second_simulation
+    static_files: www/second_simulation.html
+    upload: www/second_simulation.html
+
+  - url: /(.*)
+    static_files: www/\1
+    upload: www/(.*)

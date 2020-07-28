@@ -1,0 +1,117 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.nav-bar {
+    background-color: #E3DC08;
+    height: 82px;
+}
+
+.footer-copyright {
+    background-color: #E3DC08;
+}
+
+.icon-block {
+    padding: 0 15px;
+}
+
+.icon-block .material-icons {
+    font-size: inherit;
+}
+
+img {
+    height: 40px;
+    margin-top: 5px;
+}
+
+.dropdown-content {
+    width: 120px !important;
+}
+
+.lang-icon {
+    height: 20px;
+}
+
+.sidenav {
+    z-index: 2000;
+}
+
+.contact-icons {
+    padding-right: 5px;
+}
+
+.services {
+    padding: 5px;
+}
+
+.services:hover {
+    text-decoration: underline;
+}
+
+.modal-content {
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+}
+
+.modal-footer {
+    height: 65px !important;
+}
+
+.materialize-textarea {
+    padding-top: 20px !important;
+    border-bottom: 0px !important;
+}
+
+/* from https://codepen.io/Paco_Cervantes/pen/ZLxKpj */
+.middle-indicator {
+    position: absolute;
+    top: 40%;
+}
+
+.middle-indicator-text {
+    font-size: 4.2rem;
+}
+
+a.middle-indicator-text {
+    color: white !important;
+}
+
+.content-indicator {
+    width: 64px;
+    height: 64px;
+    background: none;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+}
+
+.dots {
+    left: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.dot {
+    width: 8px;
+    height: 8px;
+    background: gray;
+    border-radius: 50%;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.active-dot {
+    background: #e3050c;
+    cursor: default;
+}
+
+.categories {
+    background-color: #E3DC08 !important;
+    width: 103px;
+    height: 29px
+}
